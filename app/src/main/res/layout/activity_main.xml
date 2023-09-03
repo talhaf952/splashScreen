@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center|center_horizontal|center_vertical"
@@ -17,6 +17,14 @@
             android:layout_width="442dp"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/applogo" />
-    </LinearLayout>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="490dp"
+            android:backgroundTint="#FEFEFE" />
+
+    </RelativeLayout>
 
 </RelativeLayout>
